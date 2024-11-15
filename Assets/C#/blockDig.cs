@@ -8,8 +8,8 @@ public class blockDig : MonoBehaviour
 {
     private HeroKnight HeroKnight;
     private bool isMouseOn = false;
-    private float digTime = 1.0f;//Õâ¸öÊÇÍÚ¾òËùĞèÒªµÄÊ±¼ä¡£²»³öÒâÍâµÄ»°£¬µ¥Î»Ó¦¸ÃÊÇÃë
-    private float diggingTime = 0.0f;//Õâ¸öÊÇ£¨ÍÚÁË¶à¾ÃÁË£©
+    private float digTime = 1.0f;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¾ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Ê±ï¿½ä¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½Î»Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private float diggingTime = 0.0f;//ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½Ë£ï¿½æˆ‘çˆ±ä½ 
     private SpriteRenderer sr;
     public Sprite[] pictrue;
     private void OnMouseEnter()
