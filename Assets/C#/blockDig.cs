@@ -39,7 +39,7 @@ public class blockDig : MonoBehaviour
         }
         else
         {
-            diggingTime = 0.00f;
+            diggingTime = 0.0f;
         }
     }
 }
